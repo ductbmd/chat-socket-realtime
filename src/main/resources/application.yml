@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring: 
+  application:
+    name: ch
+  thymeleaf:
+    cache: false
+  mvc:
+    static-path-pattern: /resources/**
